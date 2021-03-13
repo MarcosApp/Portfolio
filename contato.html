@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Marcos Gotado | Sobre Mim</title>
+        <meta name="description" content="Marcos Gotado Carreira">
+        <link href="assets/css/default.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="screen">
+    </head>
+    <body>
+        <div class="centralizar">
+            <header>
+                <div class="menu-nav">
+                    <h1>MarcosApps</h1>
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="index.html">Sobre Mim</a> | </li>
+                            <li><a href="carreira.html">Carreira</a> | </li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="container">
+                <main>
+                    <h2>Contato</h2>
+                    <hr>
+                    <form name="form" action="mailto:marcosdossantos43@hotmail.com" method="post">
+                        <input type="hidden" name="check_submit" value="1" />
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" placeholder="Seu Nome" value="" />
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="exemplo@hotmail.com" value="" />
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" rows="10" cols="30" placeholder="" wrap="soft"></textarea>
+                        <input class="enviar" type="submit" name="enviar" value="Enviar">
+                    </form>
+                </main>
+                <aside>
+                    <h3>Contatos</h3>
+                    <hr>
+                    <nav class="social-nav">
+                        <ul>
+                            <li class="one"><a href="https://github.com/MarcosApp" target="_blank"><img src="assets/images/github.png" alt="GitHub logo"></a></li>
+                            <li class="two"><a href="https://www.linkedin.com/in/marcosgotado/" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn logo"></a></li>
+                            <li class="three"><a href="https://stackoverflow.com/users/9789186/marcosapps" target="_blank"><img src="assets/images/stackoverflow.png" alt="Stack Overflow logo"></a></li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+            <footer>
+                <p>&copy; <script>
+                    document.write(new Date().getFullYear());</script> Marcos Gotado</p>
+            </footer>
+        </div>
+    </body>
+</html>
